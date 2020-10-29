@@ -1,0 +1,5 @@
+@animals.map do |animal| {
+  species: animal.species,
+  age: animal.age,
+  food: animal.food,
+} end
